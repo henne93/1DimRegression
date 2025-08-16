@@ -1,10 +1,6 @@
 # 1DimRegression
 
-> **Platform:** This project is intended for Linux users. Compatibility with other operating systems is not guaranteed.
-
 This repository provides a C implementation for performing linear regression on 1-dimensional data arrays of length 32. The core algorithm is written entirely in C for performance and efficiency. Python is used exclusively for unit testing and validation of the C implementation.
-
-> **Note:** This project was created with the assistance of an AI programming agent.
 
 ## Features
 - Linear regression for 32-point data arrays
@@ -18,11 +14,15 @@ This repository provides a C implementation for performing linear regression on 
 - `run_tests.sh` — Script to build and test the project
 
 ## Usage
-1. Build the C extension and run tests:
+1. Build the C extension and run tests (Linux only):
    ```bash
    ./run_tests.sh
    ```
 2. Use the C implementation for regression tasks in your own projects.
 
+> **Platform:** This project is intended for Linux users. Compatibility with other operating systems is not guaranteed.
+
 ## License
 This project is licensed under the MIT License. See
+
+> **Note:** This project was created with the assistance of an AI programming agent.
