@@ -40,6 +40,7 @@ uint16_t data[] = {1, 2, 3, 4, 5};
 uint32_t len = sizeof(data) / sizeof(data[0]);
 LineFit fit = linear_regression_uint16(data, len);
 // Use fit.m_num, fit.m_den, fit.b_num, fit.b_den
+```
 
 ## Contributing
 Contributions are welcome! Please open issues or submit pull requests for improvements, bug fixes, or new features.
