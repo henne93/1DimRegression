@@ -1,5 +1,7 @@
 # 1DimRegression
 
+> **Platform:** This project is intended for Linux users. Compatibility with other operating systems is not guaranteed.
+
 This repository provides a C implementation for performing linear regression on 1-dimensional data arrays of length 32. The core algorithm is written entirely in C for performance and efficiency. Python is used exclusively for unit testing and validation of the C implementation.
 
 > **Note:** This project was created with the assistance of an AI programming agent.
