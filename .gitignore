@@ -1,0 +1,45 @@
+# Ignore build artifacts and Python cache
+*.so
+__pycache__/
+build/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# C/C++
+*.o
+*.obj
+*.exe
+*.dll
+*.out
+*.a
+*.lib
+*.lo
+*.slo
+
+# Test reports
+*.txt
+*.log
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Other
+*.DS_Store
