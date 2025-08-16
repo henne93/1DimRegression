@@ -9,4 +9,5 @@ typedef struct {
     int32_t b_den;  // Achsenabschnitt: Nenner (immer 32)
 } LineFit;
 
-LineFit linear_regression_32(const uint16_t y[N]);
+/* Variable-length regression for uint16_t arrays */
+LineFit linear_regression_uint16(const uint16_t *y, uint32_t len);
